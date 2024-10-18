@@ -1,0 +1,216 @@
+<html>
+    <head>
+        <title>Listas</title>
+        <link rel="stylesheet" href="../CSS/CSS.css" type="text/css">
+    <style type="text/css">
+        header, nav, main, footer {
+            /*width: 960px;*/
+            width: 100%;
+            color: white;
+            padding: 20px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        header {
+            /*width: 960px;*/
+            height: 150px;
+            background-color: #715100;
+        }
+        nav {
+            background-color: #F0C048;
+            text-align: center;
+            height: 100px;
+        }
+        nav ul {
+            text-align: center;
+            padding-left: 0;
+        }
+        nav ul li {
+            width: 150px;
+            height: auto;
+            background-color: #715100;
+            color: white;
+            margin-bottom: 10px;
+            padding: 20px;
+            text-align: center;
+            border: 3px solid #f7f1e1;
+            justify-content: center;
+            align-items: center;
+}
+        main {
+            background-color: #F0AC00;
+        }
+        footer {
+            background-color: #715100;
+            height: 50px;
+            width: 100%;
+        }
+        section {
+            width: 80%;
+            background-color: #715100;
+            color: white;
+            margin: 20px auto;
+            padding: 50px;
+        }
+        h2, h3, p {
+            margin-bottom: 15px;
+        }
+        h1, h5 {
+            text-align: center;
+        }
+        section ul, section ol {
+            padding-left: 40px;
+        }
+        section ol ul {
+            padding-left: 20px;
+        }
+        ul, ol {
+            padding-left: 20px;
+        }
+        dt, dl {
+            padding: 15px;
+        }  
+    </style>
+    </head>
+    <body>
+    </body>
+    <header>
+        <h1>Listas en html</h1>
+     </header>
+     <nav>
+         <ul>
+             <li><a href="Index.html">Inicio</a></li>
+            <li><a href="LISTAS.html">Listas</a></li>
+             <li><a href="ENLACES.html">Enlaces</a></li>
+             <li><a href="Tabla.html">Tablas</a></li>
+            <li><a href="imagenes.html">Imagenes</a></li>
+            <li><a href="audio.html">Audio</a></li>
+            <li><a href="Video.html">Video</a></li>
+            <li><a href="../DREAMWEAVER/formularios.html">Formulario</a></li>
+         </ul>
+    </nav>
+     <main>
+     <section>
+        <h2 id="lista_ordenada">Lista Ordenada (Nombres) </h2>
+        <ol type=a>
+        <li>Raúl Ceballos</li>
+        <li>José Luis</li>
+        <li>Claudia Leticia</li>
+        <li>Guadalupe Rojas</li>
+        <li>Leticia Cortes</li>
+     </ol>
+    </section>
+    <section>
+        <h2 id="lista_desordenada">Lista Desordenada (Color Favorito)</h2>
+        <ul style="text-align: left">
+        <li>Negro</li>
+        <li>Blanco</li>
+        <li>Rojo</li>
+        <li>Verde</li>
+        <li>Morado</li>
+     </ul>
+    </section>
+    <section>
+    <h2 id="lista_mixta">Lista Mixta (Caricaturas y Personajes)</h2>
+    <ol type="i">
+        <li>Caricaturas
+            <ul style="text-align: left">
+                <li>Dragon Ball
+                    <ul style="text-align: left">
+                        <li>Goku</li>
+                        <li>Vegeta</li>
+                        <li>Vegito</li>
+                        <li>Gogeta</li>
+                        <li>Gohan</li>
+                    </ul>
+                </li>
+                <li>Teen Titans
+                    <ul style="text-align: left">
+                        <li>Robin</li>
+                        <li>StarFire</li>
+                        <li>Raven</li>
+                        <li>Chico Bestia</li>
+                        <li>Cyborg</li>
+                    </ul>
+                </li>
+                <li>Ben 10
+                    <ul style="text-align: left">
+                        <li>Ben</li>
+                        <li>Gwen</li>
+                        <li>Abuelo Max</li>
+                        <li>XLR8</li>
+                        <li>Ultra T</li>
+                    </ul>
+                </li>
+                <li>Danny Phantom
+                    <ul style="text-align: left">
+                        <li>Danny Phantom</li>
+                        <li>Sam</li>
+                        <li>Tucker</li>
+                        <li>Ember</li>
+                        <li>Jazz</li>
+                    </ul>
+                </li>
+                <li>Bob Esponja
+                    <ul style="text-align: left">
+                        <li>Bob Esponja</li>
+                        <li>Patricio</li>
+                        <li>Calamardo</li>
+                        <li>Don Cangrejo</li>
+                        <li>Arenita</li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+        <li>Anime
+            <ol type="a">
+                <li>Los 7 Pecados Capitales
+                    <ul style="text-align: left">
+                        <li>Escanor</li>
+                        <li>Meliodas</li>
+                        <li>Gowther</li>
+                        <li>Ban</li>
+                        <li>King</li>
+                        <li>Merlin</li>
+                    </ul>
+                </li>
+                <li>My Hero Academia
+                    <ul style="text-align: left">
+                        <li>Deku</li>
+                        <li>Bakugo</li>
+                        <li>Uraraka</li>
+                        <li>Todoroki</li>
+                        <li>All Might</li>
+                    </ul>
+                </li>
+            </ol>
+        </li>
+    </ol>
+</section>
+
+     <section>
+        <h2 id="lista_conceptos">Lista de Conceptos</h2>
+        <dl>
+        <dt>Usabilidad</dt>
+        <dd>La usabilidad es una medida de la facilidad de uso de un producto o servicio, y se aplica a cualquier artefacto humano. Se trata de un concepto que se utiliza en el diseño para garantizar que los productos sean fáciles de usar y satisfagan las necesidades de los usuarios.</dd>
+        <dt>Accesibilidad</dt>
+        <dd>La accesibilidad o accesibilidad universal es el grado de pendiente el cual permite que cualquier objeto sea utilizado por todo el público, visitar un lugar o acceder a un servicio, independientemente de sus capacidades técnicas, cognitivas o físicas.</dd>
+        <dt>Interaccion</dt>
+        <dd>Es la acción que se ejerce de manera recíproca entre dos o más personas, objetos, fuerzas, agentes, funciones, etc. La idea de un efecto de dos vías es esencial en el concepto de interacción. 
+La interacción puede producirse entre dos individuos, entre un individuo y un grupo o entre dos grupos.</dd>
+        </dl>
+    </section>
+         <nav>
+            <ul>
+                <li><a href="#lista_ordenada">Lista Ordenada</a></li>
+                <li><a href="#lista_desordenada">Lista Desordenada</a></li>
+                <li><a href="#lista_mixta">Lista Mixta</a></li>
+                <li><a href="#lista_conceptos">Lista de Conceptos</a></li>
+            </ul>    
+        </nav>
+    </main>
+     <footer>
+     <h5>Elaborado por Raùl Ceballos Cortes</h5>
+     </footer>
+     
+</html>

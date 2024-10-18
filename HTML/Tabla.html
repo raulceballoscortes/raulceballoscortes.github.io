@@ -1,0 +1,394 @@
+<html>
+<head>
+    <title>Tablas en html</title>
+   <link rel="stylesheet" href="../CSS/CSS.css" type="text/css">
+    <style type="text/css">
+        #tabla_uno{
+            width: 800px;
+            text-align: center;
+            margin: 0 auto;
+            color: #f7f1e1;
+            border-style: solid;
+            border-color: floralwhite;
+            border-width: 5px;
+        }
+       #tabla_uno th{
+            background-color: #855e6e;
+           padding: 20px;
+           text-align: center;
+        }
+        #tabla_uno td{
+            background-color: #ffb2c1;
+            color: #855e6e;
+            text-align: center;
+            border-radius: 5px;
+            margin: 10px;
+            border-style: solid;
+            border-color: floralwhite;
+            border-width: 3px;
+            border-spacing: 10px;
+            padding: 10px;
+        }
+        /*#tabla2{
+            color: turquoise;
+        }
+        #tabla2 td{
+            color: floralwhite;
+            height: 50px;
+            padding: 5px;
+        }*/
+        .celda_centrada{
+            text-align: center;
+            padding: 0px;
+            background-color: ghostwhite;
+        }
+        .tabla_dos{
+            width: 600px;
+            border-collapse: collapse;
+            border-color: #ffdbd7;
+            border-style: double;
+            margin: 0 auto;
+        }
+        .tabla_dos td, .tabla_dos th{
+            /*width: 150px;*/
+            padding: 10px;
+            border-style: dashed;  
+        } 
+        .tabla_dos th{
+            background-color: #855e6e;
+            color: #f7f1e1;
+            border-color: #f7f1e1;
+        }
+        .tabla_dos td{
+            background-color: #ffb2c1;
+            border-color: #f7f1e1;
+        }
+        #tabla_zebra{
+            width: 100%;
+            padding: 20px;
+        }
+        #tabla_zebra tr:nth-child(even){
+            background-color: skyblue;
+        }
+        #tabla_zebra tbody tr:nth-last-child(odd){
+            background-color: ghostwhite;
+        }
+        #tabla_zebra thead tr{
+            background-color: powderblue;
+        }
+        .tabla_hover{
+            width: 80%;
+            margin: 0 auto;
+            color: darkviolet;
+            border-collapse: collapse;
+            border: 2px solid red;
+        }
+        .tabla_hover tbody tr:hover{
+            color: palevioletred;
+            background-color: #f7f1e1;    
+        }
+        .tabla_hover tr th{
+            background-color: azure;
+            padding: 20px;
+            border: 2px solid #855e6e;
+        }
+        .tabla_hover tr{
+            background-color: mistyrose;
+            padding: 10x;
+            border: 2px solid aqua;
+        }
+        .centrar{
+            text-align: center;
+        }
+    </style>
+    </head>
+    <body>
+        <header>
+            <h1>Tablas en HTML</h1>
+        </header>
+        <nav> 
+         <ul>
+            <li><a href="Index.html">Inicio</a></li>
+            <li><a href="LISTAS.html">Listas</a></li>
+             <li><a href="ENLACES.html">Enlaces</a></li>
+             <li><a href="Tabla.html">Tablas</a></li>
+            <li><a href="imagenes.html">Imagenes</a></li>
+            <li><a href="audio.html">Audio</a></li>
+            <li><a href="Video.html">Video</a></li>
+            <li><a href="../DREAMWEAVER/formularios.html">Formulario</a></li>
+         </ul>
+        </nav>
+        <main>
+            <section style="overflow-x: auto">
+                <h2>Tablas</h2>
+            <p>
+                Las tablas son herramientas esenciales para organizar y presentar información de manera clara, precisa y eficiente. </p>
+                <p>
+                    1. Claridad y Estructura
+Las tablas permiten organizar grandes cantidades de datos en filas y columnas, lo que facilita la lectura y comprensión. La información se presenta de manera estructurada, evitando el desorden que podría surgir si se mostrara de forma narrativa o sin jerarquía visual.
+            </p> <br>
+                <table border="1" id="tabla_uno">
+                    <thead>
+                        <tr>
+                        <th>MATRICULA</th>
+                        <th>NOMBRE</th>
+                        <th>APELLIDO PATERNO</th>
+                        <th>APELLIDO MATERNO</th>
+                        <th>COLEGIO</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td>202133526</td>
+                        <td>Raúl</td>
+                        <td>Ceballos</td>
+                        <td>Cortés</td>
+                        <td>Diseño</td>
+                    </tr>
+                    <tr>
+                        <td>202158967</td>
+                        <td>Rosa</td>
+                        <td>López</td>
+                        <td>Viveros</td>
+                        <td>Urbano</td>
+                    </tr>
+                    <tr>
+                        <td>202122587</td>
+                        <td>Guadalupe</td>
+                        <td>Rojas</td>
+                        <td>Madrid</td>
+                        <td>Etnocoreología</td>
+                    </tr>
+                    <tr>
+                        <td>202115896</td>
+                        <td>Omar</td>
+                        <td>Marin</td>
+                        <td>Osorio</td>
+                        <td>Artes</td>
+                    </tr>
+                    <tr>
+                        <td>202178963</td>
+                        <td>André</td>
+                        <td>Silva</td>
+                        <td>Morales</td>
+                        <td>Ux</td>
+                    </tr>
+                    </tbody>
+                    <tfoot></tfoot>
+                </table>
+            </section>
+            <section style="overflow-x: auto">
+                <h2>Tablas</h2>
+            <p>
+                2. Comparación Eficiente
+Una de las principales ventajas de las tablas es que permiten comparar fácilmente diferentes datos o variables. Al alinear la información en columnas, los usuarios pueden observar similitudes, diferencias y patrones sin dificultad, lo que sería mucho más complicado en un texto corrido. </p> 
+            <p> 3. Accesibilidad de la Información
+Las tablas hacen que la información sea accesible de un solo vistazo. Los usuarios no tienen que leer extensos párrafos para obtener la información que buscan; pueden encontrar los datos rápidamente en la intersección de una fila y una columna.
+            </p> <br>
+                <table id="tabla2" class="tabla_dos">
+                <thead>
+                    <tr>
+                        <th style="width: 200px;">Nombre</th>
+                        <th style="width: 100px;">Edad</th>
+                        <th style="width: 200px;" colspan="2">Teléfono</th>
+                        <th style="width: 100px;">Cooperación</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>José Luis Ceballos Cortéz</td>
+                        <td style="text-align:center; padding:0px;">15</td>
+                        <td>2224469522</td>
+                        <td>2228130937</td>
+                        <td style="text-align: center; padding: 0px; background-color: #855e6e; color: #f7f1e1;">100</td>
+                    </tr>
+                    <tr>
+                        <td>Pedro</td>
+                        <td style="text-align:center; padding:0px;">13</td>
+                        <td>2224469358</td>
+                        <td>2228130937</td>
+                        <td style="text-align: center; padding: 0px; background-color: #855e6e; color: #f7f1e1;">40</td>
+                    </tr>
+                    <tr>
+                        <td>Miguel Ángel</td>
+                        <td style="text-align:center; padding:0px;">16</td>
+                        <td>2224468963</td>
+                        <td>2228130937</td>
+                        <td style="text-align: center; padding: 0px; background-color: #855e6e; color: #f7f1e1;">77</td>
+                    </tr>
+                    <tr>
+                        <td>Daniel</td>
+                        <td style="text-align:center; padding:0px;">18</td>
+                        <td>2224461589</td>
+                        <td>2228130937</td>
+                        <td style="text-align: center; padding: 0px; background-color: #855e6e; color: #f7f1e1;">65</td>
+                    </tr>
+                    <tr>
+                        <td>Claudia Leticia</td>
+                        <td style="text-align:center; padding:0px;">12</td>
+                        <td>2224468563</td>
+                        <td>2228130937</td>
+                        <td style="text-align: center; padding: 0px; background-color: #855e6e; color: #f7f1e1;">80</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>Total</td>
+                        <td class="celda_centrada" style="background-color: darkslateblue; color: aliceblue; text-align: center; color: #f7f1e1;">362</td>
+                    </tr>    
+                </tfoot>
+                </table>
+            </section>
+            <section style="overflow-x: auto">
+                <h2>Tablas</h2>
+            <p>
+                4. Resumen de Datos Complejos
+Cuando se maneja información compleja, como estadísticas, números o comparaciones técnicas, las tablas permiten resumir y condensar esos datos en un formato visual comprensible. De este modo, es más fácil interpretar grandes cantidades de información numérica o categórica.</p> 
+            <p> 5. Jerarquización Visual
+Las tablas ayudan a establecer una jerarquía visual clara, donde los encabezados de las filas y columnas guían al lector sobre el tipo de información que está viendo. Esta jerarquización hace que la navegación por los datos sea intuitiva, lo que mejora la experiencia del usuario.
+            </p>
+                <table id="tabla_zebra">
+                <thead>
+                    <tr>
+                        <th>Nombre</th>
+                        <th>Edad</th>
+                        <th>Deporte</th>
+                        <th>Telefono</th>
+                        <th>Email</th>
+                    </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>Raul Ceballos Cortes</td>
+                    <td class="centrar">21</td>
+                    <td class="centrar">Kickboxing</td>
+                    <td>2228130937</td>
+                    <td>raul.ceballos7@gmail.com</td>
+                </tr>
+                    <tr>
+                    <td>Pablo Ariel Carrizosa Dominguez</td>
+                    <td class="centrar">19</td>
+                    <td class="centrar">Futbol</td>
+                    <td>2226958475</td>
+                    <td>pablo_ariel@hotmail.com</td>
+                </tr>
+                <tr>
+                    <td>Maria Guadalupe Rojas Madrid</td>
+                    <td class="centrar">22</td>
+                    <td class="centrar">Tenis</td>
+                    <td>2226935245</td>
+                    <td>maria.grm@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>Daniel Javier García</td>
+                    <td class="centrar">20</td>
+                    <td class="centrar">Voleyballl</td>
+                    <td>2228781549</td>
+                    <td>dany.jg@hotmail.com</td>
+                </tr>
+                <tr>
+                    <td>Rosa Amelia López Viveros</td>
+                    <td class="centrar">18</td>
+                    <td class="centrar">Basqueball</td>
+                    <td>2228978496</td>
+                    <td>Lia.11@gmail.com</td>
+                </tr>
+                    <tr>
+                    <td>Omar Alexei Marin Osorio</td>
+                    <td class="centrar">21</td>
+                    <td class="centrar">Natación</td>
+                    <td>2211094234</td>
+                    <td>Omar.marin@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>Luz Celeste Ramos  Morales</td>
+                    <td class="centrar">22</td>
+                    <td class="centrar">Atletismo</td>
+                    <td>2227197356</td>
+                    <td>Luz_cel@gmail.com</td>
+                </tr>
+                </tbody>
+                <tfoot></tfoot>
+                </table>
+            </section>
+            <section style="overflow-x: auto">
+                <h2>Tablas</h2>
+            <p>
+                6. Estandarización de Formatos
+Al usar tablas, se estandariza el formato de los datos, asegurando que todos los elementos presenten una misma estructura. Esto es especialmente útil en informes o presentaciones formales, donde la consistencia es clave para la profesionalidad y comprensión.</p> 
+            <p> 7. Facilidad de Actualización
+En muchos casos, la información en las tablas puede necesitar ser actualizada o modificada. La estructura tabular facilita realizar cambios en los datos sin necesidad de reescribir todo el contenido, como ocurriría en otros formatos.
+            </p> <br>
+            <table class="tabla_hover">
+                <thead>
+                    <tr>
+                        <th>Nombre</th>
+                        <th>Edad</th>
+                        <th>Deporte</th>
+                        <th>Telefono</th>
+                        <th>Email</th>
+                    </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>Raul Ceballos Cortes</td>
+                    <td class="centrar">21</td>
+                    <td class="centrar">Kickboxing</td>
+                    <td>2228130937</td>
+                    <td>raul.ceballos7@gmail.com</td>
+                </tr>
+                    <tr>
+                    <td>Pablo Ariel Carrizosa Dominguez</td>
+                    <td class="centrar">19</td>
+                    <td class="centrar">Futbol</td>
+                    <td>2226958475</td>
+                    <td>pablo_ariel@hotmail.com</td>
+                </tr>
+                <tr>
+                    <td>Maria Guadalupe Rojas Madrid</td>
+                    <td class="centrar">22</td>
+                    <td class="centrar">Tenis</td>
+                    <td>2226935245</td>
+                    <td>maria.grm@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>Daniel Javier García</td>
+                    <td class="centrar">20</td>
+                    <td class="centrar">Voleyballl</td>
+                    <td>2228781549</td>
+                    <td>dany.jg@hotmail.com</td>
+                </tr>
+                <tr>
+                    <td>Rosa Amelia López Viveros</td>
+                    <td class="centrar">18</td>
+                    <td class="centrar">Basqueball</td>
+                    <td>2228978496</td>
+                    <td>Lia.11@gmail.com</td>
+                </tr>
+                    <tr>
+                    <td>Omar Alexei Marin Osorio</td>
+                    <td class="centrar">21</td>
+                    <td class="centrar">Natación</td>
+                    <td>2211094234</td>
+                    <td>Omar.marin@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>Luz Celeste Ramos  Morales</td>
+                    <td class="centrar">22</td>
+                    <td class="centrar">Atletismo</td>
+                    <td>2227197356</td>
+                    <td>Luz_cel@gmail.com</td>
+                </tr>
+                </tbody>
+                <tfoot></tfoot>
+                </table>
+            </section>
+        </main>
+        <footer> 
+        <h5>Elaborado por Raúl Ceballos Cortés</h5>
+        </footer>
+    </body>
+</html>

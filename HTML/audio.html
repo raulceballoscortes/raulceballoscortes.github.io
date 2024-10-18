@@ -1,0 +1,132 @@
+<html>
+<head>
+    <title>Audio en HTML</title>
+    <link rel="stylesheet" href="../CSS/CSS.css" type="text/css">
+    <style type="text/css">
+        html, body {
+            height: 100%;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+        }
+
+        header, nav, main, footer {
+            color: white;
+            padding: 20px;
+            margin-left: auto;
+            margin-right: auto;
+            width: 100%;
+        }
+
+        header {
+            height: 150px;
+            background-color: #73020C;
+        }
+
+        nav ul li {
+            width: 150px;
+            background-color: #73020C;
+            color: white;
+            margin-bottom: 10px;
+            padding: 20px;
+            text-align: center;
+            border: 3px solid #f7f1e1;
+        }
+
+        nav ul li a:hover {
+            color: #73020C;
+            font-weight: bold;
+        }
+
+        nav {
+            background-color: #BF0426;
+            text-align: center;
+            height: 100px;
+        }
+
+        main {
+            background-color: #A60321;
+            text-align: center;
+            flex: 1;
+        }
+
+        section {
+            width: 400px;
+            display: inline-block;
+            margin: 5px;
+            height: 450px;
+            overflow: auto;
+            background-color: #73020C;
+        }
+
+        footer {
+            background-color: #73020C;
+            height: 50px;
+            width: 100%;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Audio en HTML</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="Index.html">Inicio</a></li>
+            <li><a href="LISTAS.html">Listas</a></li>
+            <li><a href="ENLACES.html">Enlaces</a></li>
+            <li><a href="Tabla.html">Tablas</a></li>
+            <li><a href="imagenes.html">Imagenes</a></li>
+            <li><a href="audio.html">Audio</a></li>
+            <li><a href="Video.html">Video</a></li>
+            <li><a href="../DREAMWEAVER/formularios.html">Formulario</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section>
+            <h2>Audio</h2>
+            <p>El audio o sonido en el diseño juega un papel crucial, especialmente en disciplinas como el diseño interactivo, el diseño de experiencias y la creación de contenido multimedia. Su importancia se puede desglosar en varios aspectos:
+
+Experiencia del Usuario (UX): El sonido puede mejorar la usabilidad y la experiencia general de los usuarios, especialmente en interfaces digitales. Por ejemplo, los sonidos de notificación, alertas o confirmaciones proporcionan retroalimentación inmediata y ayudan a guiar a los usuarios en su interacción con productos digitales.</p>
+            <audio controls>
+                <source src="../AUDIO/punch.mp3" type="audio/mp3">
+                El formato de audio no es soportado por tu navegador.
+            </audio>
+        </section>
+        <section>
+            <h2>Audio Muted</h2>
+            <p>Accesibilidad: En muchos casos, el audio es fundamental para hacer que los diseños sean accesibles para personas con discapacidades visuales. El uso de descripciones auditivas, lectores de pantalla o señales sonoras permite a estos usuarios navegar e interactuar con las interfaces.
+
+Inmersión y Emoción: El sonido tiene la capacidad de evocar emociones y crear atmósferas. En videojuegos, películas, sitios web interactivos y experiencias inmersivas, el diseño sonoro puede ser un elemento clave para generar sentimientos como tensión, alegría o calma, ayudando a los usuarios a sentirse más conectados con el contenido.</p>
+            <audio controls autoplay muted>
+                <source src="../AUDIO/cinematic.mp3" type="audio/mp3">
+                El formato de audio no es soportado por tu navegador.
+            </audio>
+        </section>
+        <section>
+            <h2>Audio Loop</h2>
+            <p>Marca Auditiva: El audio es una herramienta poderosa para crear identidad de marca. Jingles, sonidos de arranque en dispositivos electrónicos, o tonos característicos (como el sonido de Netflix o Intel) son ejemplos de cómo el sonido puede fortalecer el reconocimiento de marca y generar una conexión emocional duradera con los usuarios.
+
+Ritmo y Dinamismo: En animaciones o transiciones de contenido, el sonido puede reforzar el dinamismo visual, sincronizando elementos visuales con efectos de sonido para crear un flujo más fluido y atractivo. Esto puede ser muy efectivo en la narrativa digital o al crear presentaciones interactivas.</p>
+            <audio controls autoplay loop>
+                <source src="../AUDIO/elemental.mp3" type="audio/mp3">
+                El formato de audio no es soportado por tu navegador.
+            </audio>
+        </section>
+        <section>
+            <h2>Audio en Banco de Audios</h2>
+            <p>Los bancos de audio son colecciones de sonidos, música, efectos sonoros y locuciones que pueden ser utilizados en diversos proyectos de diseño, multimedia, desarrollo digital, cine, publicidad, entre otros. Estos bancos son esenciales para los diseñadores y creadores de contenido, ya que facilitan el acceso a recursos de alta calidad sin necesidad de producir los sonidos por cuenta propia.</p>
+            <iframe frameborder='0' allowfullscreen='' scrolling='no' height='200' style='width:100%;' src='https://www.ivoox.com/player_ej_56554215_6_1.html?c1=817524' loading='lazy'></iframe>
+        </section>
+        <section>
+            <h2>Audio en Listas de Reproducción Spotify</h2>
+            <p>El audio en las listas de reproducción de plataformas como Spotify tiene una relevancia importante en varios aspectos tanto para los usuarios como para los creadores de contenido y marcas. No solo es una cuestión de selección musical, sino que implica curar una experiencia completa, donde el flujo, la emoción y la calidad del sonido se unen para generar una experiencia auditiva personalizada y coherente.</p>
+            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/3az0TCGF95pK33BcF28tIU?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+        </section>
+    </main>
+    <footer>
+        <h5>Elaborado por Raúl Ceballos Cortés</h5>
+    </footer>
+</body>
+</html>
