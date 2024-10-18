@@ -1,0 +1,312 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Documento sinFormularios</title>
+ <link rel="stylesheet" href="../CSS/CSS.css" type="text/css">
+	<style type="text/css">
+		form {
+			width: 50%;
+			height: auto;
+			padding: 30px;
+			background-color: #00747C;
+			color: aliceblue;
+			margin: 0 auto;
+		}
+		label {
+			padding-bottom: 10px;
+			padding-top: 10px;
+		}
+		label,input{
+			display:block;
+			margin-left: 10px;
+			
+		} 
+		input[type=text],input[type=password]{
+			width: 100%;
+			color: #00747C;
+			padding: 8px;
+			font-weight: bold;
+			border: 3px solid #00BBC9;
+			border-radius: 10px;
+			background-color:#F2E3D5;
+		d}
+		input[type=submit]{
+			width: 30%;
+			background-color:#F2E3D5;
+			padding: 10px;
+			margin: 20px auto;
+			border-radius: 10px;
+			color: #012E40;
+			font-weight: bolder;
+		}
+		input[type=text]:focus, input[type=password]:focus{
+			background-color:#026773;
+			border: 3px solid #024959;
+		}
+		input[type=text],input[type=number]{
+			width: 100%;
+			color: #012E40;
+			padding: 8px;
+			font-weight: bold;
+			border: 3px solid #012E40;
+			border-radius: 10px;
+			background-color:#F2E3D5;
+		}
+		select{
+			width: 100%;
+			color: #012E40;
+			padding: 8px;
+			font-weight: bold;
+			border: 3px solid #3CA6A6;
+			border-radius: 10px;
+			background-color:#F2E3D5;
+		}
+		header{
+            /*width: 960px;*/
+            height: 150px;
+            background-color: #202022;
+            }
+		main{
+                text-align: center;
+                background-color: #878787;
+            }
+		section{
+background-color: #202022;
+}
+		nav{
+            background-color: #CACACA;
+            text-align: center;
+            height: 100px;
+		}
+		nav ul li {
+background-color: #202022;
+} 
+		nav ul li a:hover{
+                color: #202022;
+                font-weight: bold;
+		}
+		footer{
+            background-color: #202022;
+}
+	</style>
+	<link href="style page.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<header>
+  <h1>FORMULARIOS EN HTML</h1>
+</header>
+ <nav>
+         <ul>
+             <li><a href="../HTML/Index.html">Inicio</a></li>
+            <li><a href="../HTML/LISTAS.html">Listas</a></li>
+             <li><a href="../HTML/ENLACES.html">Enlaces</a></li>
+             <li><a href="../HTML/Tabla.html">Tablas</a></li>
+            <li><a href="../HTML/imagenes.html">Imagenes</a></li>
+            <li><a href="../HTML/audio.html">Audio</a></li>
+            <li><a href="../HTML/Video.html">Video</a></li>
+            <li><a href="../DREAMWEAVER/formularios.html">Formulario</a></li>
+         </ul>
+    </nav>
+<main>
+  <section>
+    <h2>Formulario Usuario 1&nbsp;</h2>
+    <p>Los formularios son herramientas esenciales en la recolección de información, que permiten a los usuarios proporcionar datos de manera estructurada y organizada. Se utilizan en diversos contextos, desde la recopilación de datos personales hasta la interacción en línea y el procesamiento de transacciones.</p>
+  </section>
+  <section>
+    <h2>1. ¿Qué son los formularios?</h2>
+    <p>Un formulario es un documento (físico o digital) que contiene campos en los que se pueden ingresar datos. Estos campos pueden ser de diferentes tipos, como texto, casillas de verificación, botones de opción, menús desplegables, entre otros. Los formularios son utilizados en una variedad de aplicaciones, como encuestas, inscripciones, solicitudes y compras en línea.</p>
+	  <form action="" method="get">
+		  <label id="">Nombre:</label>
+		  <input type="text" id="nombre" name="nombre">
+		  <label id=""> Contraseña:</label>
+		  <input type="password" id="contraseña" name="contraseña">
+		  <input type="submit" value="Enviar">
+	  </form>
+    </section>
+<section>
+    <h2>2. Tipos de formularios</h2>
+    <p> Los formularios se pueden clasificar en varias categorías, dependiendo de su uso y formato:</p>
+    <p>a. Formularios en papel,&nbsp;b. Formularios electrónicos,&nbsp;c. Formularios modales,&nbsp; d. Formularios de inscripción,&nbsp;e. Formularios de encuestas&nbsp;</p>
+<form id="form2" name="form2" method="post">
+      
+      <input type="text" name="textfield" id="textfield">
+		<label for="textfield">Nombre:</label>
+	  <label for="genero">Genero</label>
+      <table width="0%" >
+        <tr>
+         
+			<td style="text-align:center"><input type="radio" name="Genero" value="Fem" id="Genero_0"></td>
+			 <td><label>Femenino</label></td>
+        </tr>
+        <tr>
+        
+			<td><input type="radio" name="Genero" value="Mas" id="Genero_1"></td>
+			  <td><label>Masculino</label></td>
+        </tr>
+        <tr>
+          
+			<td><input type="radio" name="Genero" value="other" id="Genero_2"></td>
+			<td><label>Other</label></td>
+        </tr>
+      </table>
+	  <label form="musica">Cual es tu genero favorito</label>
+		<p>
+			
+				<input type="checkbox" name="musia" value="clasica" id="musia_0">
+		  <label>clasica</label>
+			
+		  
+			<label>pop</label>
+				<input type="checkbox" name="musia" value="pop" id="musia_1">
+		  
+		  <label>
+		    
+		    rock</label><input type="checkbox" name="musia" value="rock" id="musia_2">
+		  <br>
+		  <label>
+		   
+		    tropical</label> <input type="checkbox" name="musia" value="tropical" id="musia_3">
+		  <br>
+		  <label>
+		    
+		    jazz y blues</label><input type="checkbox" name="musia" value="jazz" id="musia_4">
+		  <br>
+	  </p>
+     
+    </form>
+    </section>
+	<section>
+    <h2>Formulario de Registro de Usuario</h2>
+    <p>Descripción: Este formulario permite a los usuarios crear una cuenta en un sitio web o aplicación. Suele requerir información básica, como nombre, dirección de correo electrónico, contraseña y, a veces, datos adicionales como número de teléfono o dirección.&nbsp;</p>
+    <p>Uso: Se utiliza para identificar y autenticar a los usuarios, permitiéndoles acceder a contenido personalizado o funcionalidades adicionales. Facilita el seguimiento de actividades y la interacción del usuario con la plataforma.</p>
+<form action="" method="post">
+  <label for="nombre">Nombre completo:</label>
+  <input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre completo" required>
+  
+  <label for="email">Correo electrónico:</label>
+  <input type="email" id="email" name="email" placeholder="example@mail.com" required>
+  
+  <label for="password">Contraseña:</label>
+  <input type="password" id="password" name="password" placeholder="Escribe tu contraseña" required>
+  
+  <label for="telefono">Número de Teléfono:</label>
+  <input type="tel" id="telefono" name="telefono" placeholder="555-555-5555" required>
+  
+  <label for="nacimiento">Fecha de Nacimiento:</label>
+  <input type="date" id="nacimiento" name="nacimiento" required>
+  
+  <input type="submit" value="Registrar">
+</form>
+	</section>
+	<section>
+    <h2>Formulario de Encuesta de Satisfacción</h2>
+    <p>Descripción: Este formulario recopila opiniones y comentarios de los usuarios sobre un producto, servicio o experiencia. Suele incluir preguntas de opción múltiple, escalas de valoración y espacios para comentarios abiertos.&nbsp;</p>
+    <p>Uso: Se utiliza para evaluar la satisfacción del cliente, identificar áreas de mejora y obtener retroalimentación sobre la calidad del servicio o producto ofrecido. Ayuda a las empresas a comprender las necesidades y expectativas de sus clientes.</p>
+<form action="" method="post">
+  <label for="name">Nombre:</label>
+  <input type="text" id="name" name="name" placeholder="Tu nombre" required>
+  
+  <label for="satisfaccion">¿Qué tan satisfecho estás con nuestro servicio?</label>
+  <select name="satisfaccion" id="satisfaccion">
+    <option value="muy_satisfecho">Muy satisfecho</option>
+    <option value="satisfecho">Satisfecho</option>
+    <option value="neutral">Neutral</option>
+    <option value="insatisfecho">Insatisfecho</option>
+    <option value="muy_insatisfecho">Muy insatisfecho</option>
+    </select>
+  
+  <label for="comentarios">Comentarios:</label>
+  <textarea name="comentarios" id="comentarios" rows="4" placeholder="Déjanos tus comentarios"></textarea>
+  
+  <input type="submit" value="Enviar">
+</form>
+	</section>
+	<section>
+    <h2>Formulario de Reserva de una Cita</h2>
+    <p>Descripción: Este formulario permite a los usuarios seleccionar una fecha y hora para una cita, y puede incluir campos para ingresar información personal, como nombre, correo electrónico y motivo de la cita.&nbsp;</p>
+    <p>Uso: Se utiliza en diversos contextos, como consultas médicas, reuniones de negocios o servicios de belleza. Facilita la organización de horarios y la gestión de citas, asegurando que tanto el proveedor como el cliente estén informados y preparados.</p>
+<form action="" method="post">
+  <label for="Nombres">Nombre completo:</label>
+  <input type="text" id="Nombres" name="Nombres" placeholder="Escribe tu nombre completo" required>
+  
+  <label for="servicio">Servicio a solicitar:</label>
+  <select name="servicio" id="servicio">
+    <option value="consulta_medica">Consulta médica</option>
+    <option value="dentista">Dentista</option>
+    <option value="psicologia">Psicología</option>
+    </select>
+  
+  <label for="fecha">Fecha de la cita:</label>
+  <input type="date" id="fecha" name="fecha" required>
+  
+  <label for="hora">Hora preferida:</label>
+  <input type="time" id="hora" name="hora" required>
+  
+  <label for="comentarios">Comentarios adicionales:</label>
+  <textarea name="comentarios" id="comentarios" rows="3" placeholder="Escribe cualquier comentario adicional"></textarea>
+  
+  <input type="submit" value="Reservar">
+</form>
+	</section>
+	<section>
+    <h2>Formulario de Solicitud de Empleo</h2>
+    <p>Descripción: Este formulario recopila información de los solicitantes que desean postularse para un puesto de trabajo. Incluye campos para datos personales, experiencia laboral, educación y, a menudo, una carta de presentación o currículum.</p>
+    <p>Uso: Se utiliza en procesos de reclutamiento y selección de personal. Ayuda a los empleadores a evaluar la idoneidad de los candidatos y facilita la gestión de solicitudes.</p>
+<form action="" method="post">
+  <label for="nombres">Nombre completo:</label>
+  <input type="text" id="nombres" name="nombres" placeholder="Escribe tu nombre completo" required>
+  
+  <label for="email">Correo electrónico:</label>
+  <input type="email" id="email" name="email" placeholder="example@mail.com" required>
+  
+  <label for="experiencia">Experiencia laboral:</label>
+  <textarea name="experiencia" id="experiencia" rows="4" placeholder="Describe tu experiencia laboral"></textarea>
+  
+  <label for="cv">Adjunta tu currículum (PDF):</label>
+  <input type="file" id="cv" name="cv" accept=".pdf">
+  
+  <label for="disponibilidad">Disponibilidad para empezar:</label>
+  <input type="date" id="disponibilidad" name="disponibilidad" required>
+  
+  <input type="submit" value="Enviar aplicación">
+</form>
+	</section>
+	<section>
+    <h2>Formulario de Registro para un Evento</h2>
+    <p>Descripción: Este formulario permite a los usuarios inscribirse en un evento, como conferencias, talleres, seminarios o festivales. Suele requerir información como nombre, correo electrónico, tipo de entrada y, a veces, preferencias dietéticas o necesidades especiales.&nbsp;</p>
+    <p>Uso: Se utiliza para planificar y gestionar eventos, asegurando que los organizadores tengan una idea del número de asistentes y sus requerimientos. También puede incluir opciones de pago si el evento es de pago.</p>
+<form action="" method="post">
+  <label for="nombre">Nombre completo:</label>
+  <input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre completo" required>
+  
+  <label for="email">Correo electrónico:</label>
+  <input type="email" id="email" name="email" placeholder="example@mail.com" required>
+  
+  <label for="evento">Selecciona el evento:</label>
+  <select name="evento" id="evento">
+    <option value="conferencia">Conferencia de Diseño</option>
+    <option value="taller">Taller de Ilustración</option>
+    <option value="curso">Curso de Programación</option>
+    </select>
+  
+  <label for="preferencias">Preferencias Artisticas:</label>
+  <input type="checkbox" id="ilustración" name="tipos" value="ilustración">
+  <label for="ilustración">Ilustración Tradicional</label>
+  
+  <input type="checkbox" id="idigital" name="tipos" value="idigital">
+  <label for="idigital">Ilustración Digital</label>
+  
+  <input type="checkbox" id="mixtas" name="tipos" value="mixtas">
+  <label for="mixtas">Mixtas</label>
+  
+  <input type="submit" value="Registrarse">
+</form>
+	</section>
+</main>
+<footer>
+  <h5>Elaborado por Raúl Ceballos Cortés&nbsp;&nbsp;</h5>
+</footer>
+</body>
+</html>
