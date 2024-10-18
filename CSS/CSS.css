@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+FR+Trad:wght@100..400&family=Sriracha&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&family=Anton&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box
+    
+}
+header, nav, main, footer{
+    /*width: 960px;*/
+    width: 100%;
+    padding: 20px;
+    margin-left: auto;
+    margin-bottom: auto;
+    font-family: "Afacad Flux", sans-serif;
+
+}
+header{
+    width: 100%;
+    height: 100px;
+    background-color: #ce7095;
+    color: #f7f1e1;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+nav{
+    height: 100px;
+    background-color: #ffb2c1;
+     margin-left: auto;
+    margin-right: auto;
+}
+main{
+    width: 100%;
+    height: auto;
+    background-color: #ffdbd7;
+    margin-left: auto;
+    margin-right: auto;
+}
+section{
+    /*width: 800px;*/
+    width: 80%;
+    height: auto;
+    background-color: #ce7095;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 50px;
+}
+footer{
+    height:50px;
+    width: 100%;
+    background-color: #855e6e;
+    color: #ffdbd7;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+h1{
+    font-family: "Sriracha", sans-serif;
+}
+h1,h5{
+    text-align: center;
+}
+ul{
+    text-align: center;
+}
+nav ul li{
+            width: 150px;
+            background-color: #855e6e;
+            color: #855e6e;
+            margin-bottom: 10px;
+            padding: 20px;
+            text-align: center;
+            border-width: 3px;
+            border-color: #f7f1e1;
+            border-style: solid;
+            display: inline-block;
+}
+nav ul li a, nav ul li a:visited, nav ul li a:link{
+    color: #f7f1e1;
+    text-decoration: none
+}
+nav ul li:hover{
+    background-color: #f7f1e1;
+}
+nav ul li a:hover{
+    color: #855e6e;
+}
+img{
+    width: 400px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;   
+}
+h2,p{
+    color: #f7f1e1;
+}
+p{
+    margin-bottom:  15px;
+    font-family: "Afacad Flux", sans-serif;
+    font-size: 16px;
+}
+h2{
+    margin-bottom: 20px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 36px;
+    color: ghostwhite;
+}
+#Schnauzer2{
+    width: 300px;
+    float: right;
+    margin-left: 20px;
+}
+#Schanauzer3{
+    width: 300px;
+    height: auto;
+    float: left;
+    margin-left: auto;
+    margin-right: 20px;
+}
+#icono {
+    width: 100px;  /*24px;*/
+    height: auto;
+}
+main nav{
+    width: 800px;
+    padding: 30px; 
+}
+#fondo_seccion {
+    background-image: url("../IMAGENES/IMG5.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; 
+    height: auto;
+}
+#fondo_seccion p, #fondo_seccion h2{
+    color: #855e6e
+    
+}
+Main nav{
+                width: 900px;
+                background-color: transparent;
+                text-align: center;
+            }
+#imagen_filtro{
+    text-align: center;
+}
+#imagen_filtro img{
+    display: inline-block;
+    width: 30%;
+    height: auto;
+    padding: 10px;
+}
+#img1{
+    filter: brightness(150%); 
+}
+#img2{
+    filter: contrast(50%);
+}
+#img3{
+    filter: grayscale(100%);
+}
+#img4{
+    filter: invert(100%);
+}
+#img5{
+    filter: opacity(50%)
+}
+#img6{
+    filter: sepia(100%);
+}
+#img7{
+    filter: saturate(150%);
+}
+#img8{
+    filter: blur(5px);
+}
+#img9{
+    filter: drop-shadow(10px 10px 20px orange);
+}
+#img10{
+    filter: saturate(150%) blur(1.5px);
+}
+#img11{
+    filter: hue-rotate(100deg);
+}
+ifrmae, audio{
+    display: block;
+    margin: auto;
+}
+video{
+    align-content: center;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
